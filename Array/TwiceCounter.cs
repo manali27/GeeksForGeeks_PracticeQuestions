@@ -1,4 +1,22 @@
-﻿using System;
+﻿/*
+ * Problem:
+ * Given an array of n words. Some words are repeated twice, we need count such words.
+ *
+ * Input:
+ * The first line of input contains an integer T denoting the number of test cases. Then T test cases follow.
+ * Each test case contains an integer n denoting the number of words in the string.
+ * The next line contains n space separated words forming the string.
+ *
+ * Example:
+ * Input:
+ * 2
+ * 10
+ * hate love peace love peace hate love peace love peace    -   Output: 1
+ * 8
+ * Tom Jerry Thomas Tom Jerry Courage Tom Courage           -   Output: 2
+ */
+
+using System;
 using System.Linq;
 using System.Text;
 

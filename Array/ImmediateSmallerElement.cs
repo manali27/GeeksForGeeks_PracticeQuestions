@@ -1,4 +1,23 @@
-﻿using System;
+﻿/*
+ * Problem:
+ * Given an integer array of size N. For each element in the array, check whether the right adjacent element (on the next immediate position) of the array is smaller.
+ * If next element is smaller, print that element. If not, then print -1.
+ *
+ * Input:
+ * The first line of input contains an integer T denoting the number of test cases. T testcases follow. Each testcase contains 2 lines of input:
+ * The first line contains an integer N, where N is the size of array.
+ * The second line contains N integers(elements of the array) sperated with spaces.
+ *
+ * Example:
+ * Input
+ * 2
+ * 5
+ * 4 2 1 5 3        -   Output: 2 1 -1 3 -1
+ * 6
+ * 5 6 2 3 1 7      -   Output: -1 2 -1 1 -1 -1
+ */
+
+using System;
 using System.Text;
 
 namespace ImmediateSmallerElement
